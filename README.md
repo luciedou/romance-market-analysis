@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 # Romance market analysis
 
 Analyse du marché de la romance à partir de données Goodreads et Kaggle
@@ -11,27 +15,28 @@ L’analyse est pensée dans une logique Business Intelligence : transformer des
 Ce projet sert également de portfolio dans le cadre d’une reconversion vers les métiers de la data (Data Analyst / BI Analyst).
 
 ## Problématiques étudiées
-Les questions auxquelles ce projet cherche à répondre :
-* Existe-t-il une corrélation entre le nombre d’avis et la note moyenne d’un livre ?
-* Les romances contemporaines sont-elles mieux notées que les romances historiques ?
-* Quel est le prix moyen par sous-genre de la romance ?
-* Certains sous-genres présentent-ils une meilleure réception critique que d’autres ?
+Les questions auxquelles ce projet cherche à répondre : 
+  - Existe-t-il une corrélation entre le nombre d’avis et la note moyenne d’un livre ?
+  - Les romances contemporaines sont-elles mieux notées que les romances historiques ?
+  - Quel est le prix moyen par sous-genre de la romance ?
+  - Certains sous-genres présentent-ils une meilleure réception critique que d’autres ?
 
+## Résultats clés
+*(À compléter après analyse)*
+   - Insight 1
+   - Insight 2
+   - Insight 3
+  
 ## Structure du projet
 romance-market-analysis/
-│
-├── data/
-│   ├── raw/          # Données brutes (Kaggle, Goodreads)
-│   └── processed/    # Données nettoyées et préparées
-│
-├── notebooks/        # Analyses exploratoires et statistiques
-│
-├── src/              # Fonctions Python réutilisables (nettoyage, analyse)
-│
-├── visuals/          # Graphiques et visualisations finales
-│
-├── README.md
-└── requirements.txt
+- **data/** : Données du projet
+  - `raw/` : Données brutes (Kaggle, Goodreads)
+  - `processed/` : Données nettoyées et préparées
+- **notebooks/** : Analyses exploratoires et statistiques
+- **src/** : Fonctions Python réutilisables (nettoyage, analyse)
+- **visuals/** : Graphiques et visualisations finales
+- `README.md` : Documentation du projet
+- `requirements.txt` : Dépendances Python
 
 ## Sources de données
 
@@ -45,28 +50,28 @@ les données sont utilisées uniquement à des fins pédagogiques et analytiques
 
 Le projet suit les étapes classiques d’un projet Data / BI :
 
-1. Collecte des données
-2. Nettoyage et préparation
-  - gestion des valeurs manquantes
-  - normalisation des genres et sous-genres
-  - filtrage sur le périmètre “romance”
-3. Analyse exploratoire
-  - statistiques descriptives
-  - corrélations
-  - comparaisons entre sous-genres
-4. Visualisation
-  - graphiques clairs orientés décision
-5. Synthèse business
-  - interprétation des résultats
-  - limites de l’analyse
+1. **Collecte des données**
+2. **Nettoyage et préparation**
+   - Gestion des valeurs manquantes
+   - Normalisation des genres et sous-genres
+   - Filtrage sur le périmètre “romance”
+3. **Analyse exploratoire**
+   - Statistiques descriptives
+   - Corrélations
+   - Comparaisons entre sous-genres
+4. **Visualisation**
+   - Graphiques clairs orientés décision
+5. **Synthèse business**
+   - Interprétation des résultats
+   - Limites de l’analyse
 
 ## Outils utilisés
 
-* Python
-* Pandas
-* Matplotlib / Seaborn
-* Jupyter Notebook
-* Git / GitHub
+- **Python 3.x** : Pandas, NumPy
+- **Visualisation** : Matplotlib, Seaborn, Excel
+- **Analyse** : Jupyter Notebook
+- **Gestion de version** : Git / GitHub
+- **SQL**
 
 ## Langues
 
@@ -89,4 +94,15 @@ Dans le cadre d’une reconversion vers les métiers de la data et de la Busines
 
 - Analyse temporelle (évolution des notes dans le temps)
 - Segmentation par popularité des auteurs
+- Intégration de données de ventes (si disponibles)
 - Dashboard interactif (Power BI / Tableau)
+- Analyse sentiment des reviews textuelles (NLP basique)
+
+## 📬 Contact
+
+Des questions sur ce projet ? Des suggestions d'amélioration ?
+* GitHub Issues : [ouvrir un ticket](lien)
+* Ou me contacter directement via [LinkedIn/autre]
+
+---
+*Ce projet est en cours de développement. Dernière mise à jour : 26/01/26*
