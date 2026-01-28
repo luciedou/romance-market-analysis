@@ -77,13 +77,12 @@ Le projet suit les étapes classiques d’un projet Data / BI :
 
 - Données disponibles en anglais
 - Documentation et synthèse en français
-- Une version anglaise du README pourra être fournie si nécessaire
+- Une version anglaise du README est fournie 
 
 ## Limites du projet
 
 - Les données Goodreads ne représentent pas l’ensemble du marché
 - Les avis sont soumis à des biais (auto-sélection, popularité des auteurs)
-- Les prix peuvent varier selon les marchés et formats
 
 ## Auteur
 
@@ -105,4 +104,4 @@ Des questions sur ce projet ? Des suggestions d'amélioration ?
 * Ou me contacter directement via [LinkedIn/autre]
 
 ---
-*Ce projet est en cours de développement. Dernière mise à jour : 26/01/26*
+*Ce projet est en cours de développement. Dernière mise à jour : 28/01/26*
