@@ -18,7 +18,7 @@ Ce projet sert également de portfolio dans le cadre d’une reconversion vers l
 Les questions auxquelles ce projet cherche à répondre : 
   - Existe-t-il une corrélation entre le nombre d’avis et la note moyenne d’un livre ?
   - Les romances contemporaines sont-elles mieux notées que les romances historiques ?
-  - Quel est le prix moyen par sous-genre de la romance ?
+  - Quels sous-genres de romance génèrent le plus d'engagement (nombre d'avis) ?
   - Certains sous-genres présentent-ils une meilleure réception critique que d’autres ?
 
 ## Résultats clés
