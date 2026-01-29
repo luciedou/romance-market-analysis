@@ -22,10 +22,64 @@ Les questions auxquelles ce projet cherche à répondre :
   - Certains sous-genres présentent-ils une meilleure réception critique que d’autres ?
 
 ## Résultats clés
-*(À compléter après analyse)*
-   - Insight 1
-   - Insight 2
-   - Insight 3
+### Dataset analysé
+- **1 566 romances** issues de 11 098 livres Goodreads
+- **Note moyenne : 3,90/5**
+- **6 sous-genres principaux** identifiés et analysés
+
+### Insights principaux
+
+#### **Répartition du marché**
+- **Contemporary Romance** domine avec 14,7% (230 livres)
+- **Historical Romance** : 10,4% (163 livres)
+- **Paranormal Romance** : 8,7% (136 livres)
+- **Romantic Suspense** : 5,7% (89 livres)
+- **Fantasy Romance** et **Erotic Romance** : marchés de niche (~1% chacun)
+
+#### **Qualité perçue (notes moyennes)**
+- 🥇 **Fantasy Romance** : 3,98/5 (meilleur sous-genre, marché de niche)
+- 🥈 **Paranormal Romance** : 3,97/5
+- 🥉 **Historical Romance** : 3,93/5
+- **Contemporary Romance** : 3,79/5 (marché saturé, notes plus basses)
+
+#### **Engagement des lecteurs (nombre d'avis moyens)**
+- Paranormal Romance : 56 390 avis (communauté exceptionnellement engagée !)
+- Contemporary Romance : 31 531 avis
+- Historical Romance : 22 674 avis
+- Romantic Suspense : 4 105 avis
+
+**Observation clé** : Paranormal Romance génère **17x plus d'engagement** que Romantic Suspense, malgré un marché de taille similaire. Cette communauté de lecteurs est particulièrement active et fidèle.
+
+#### **Longueur des livres**
+- Fantasy Romance : 500 pages en moyenne (lectures immersives)
+- Historical Romance : 426 pages
+- Contemporary Romance : 356 pages
+- Erotic Romance : 304 pages (lectures rapides)
+
+#### **Réponse aux questions initiales**
+
+**Q1 : Existe-t-il une corrélation entre nombre d'avis et note moyenne ?**
+→ Corrélation faible. Les livres très populaires ne sont pas systématiquement les mieux notés.
+
+**Q2 : Les romances historiques sont-elles mieux notées que les contemporaines ?**
+→ **Oui.** Historical (3,93) surpasse Contemporary (3,79) de 0,14 points.
+
+**Q3 : Quels sous-genres génèrent le plus d'engagement ?**
+→ **Paranormal Romance** domine largement avec 56k avis en moyenne.
+
+**Q4 : Certains sous-genres ont-ils une meilleure réception critique ?**
+→ **Fantasy Romance** (3,98) et **Paranormal Romance** (3,97) sont les mieux notés.
+
+---
+
+### Recommandations business
+
+**Pour un auteur/éditeur :**
+- **Opportunité** : Paranormal Romance combine qualité (3,97) et viralité (56k avis)
+- **Valeur sûre** : Historical Romance (2e marché, bonne qualité)
+- **Marché difficile** : Contemporary Romance (saturé, notes plus basses)
+- **Niche premium** : Fantasy Romance (meilleure note, petit marché)
+---
   
 ## Structure du projet
 romance-market-analysis/
@@ -45,6 +99,11 @@ romance-market-analysis/
 
 Ce projet respecte les conditions d’utilisation des plateformes :
 les données sont utilisées uniquement à des fins pédagogiques et analytiques.
+
+Les données ne sont pas incluses dans ce repo. Pour reproduire l'analyse :
+1. Téléchargez le dataset depuis Kaggle : https://www.kaggle.com/datasets/middlelight/goodreadsbookswithgenres
+2. Placez le fichier CSV dans `data/raw/`
+3. Lancez les notebooks
 
 ## Méthodologie
 
@@ -97,7 +156,7 @@ Dans le cadre d’une reconversion vers les métiers de la data et de la Busines
 - Dashboard interactif (Power BI / Tableau)
 - Analyse sentiment des reviews textuelles (NLP basique)
 
-## 📬 Contact
+## Contact
 
 Des questions sur ce projet ? Des suggestions d'amélioration ?
 * GitHub Issues : [ouvrir un ticket](lien)
