@@ -1,0 +1,34 @@
+# Données (trop volumineuses pour GitHub)
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
+data/processed/*.xlsx
+
+# Environnement Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Fichiers de test
+test.py
+scratch.ipynb
