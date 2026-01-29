@@ -14,6 +14,8 @@ L’analyse est pensée dans une logique Business Intelligence : transformer des
 
 Ce projet sert également de portfolio dans le cadre d’une reconversion vers les métiers de la data (Data Analyst / BI Analyst).
 
+Les données sont initialement traitées en Python, puis modélisées en SQL à des fins d’analyse.
+
 ## Problématiques étudiées
 Les questions auxquelles ce projet cherche à répondre : 
   - Existe-t-il une corrélation entre le nombre d’avis et la note moyenne d’un livre ?
@@ -87,6 +89,7 @@ romance-market-analysis/
   - `raw/` : Données brutes (Kaggle, Goodreads)
   - `processed/` : Données nettoyées et préparées
 - **notebooks/** : Analyses exploratoires et statistiques
+- **sql** : Scripts SQL pour la création de la base et les analyses
 - **src/** : Fonctions Python réutilisables (nettoyage, analyse)
 - **visuals/** : Graphiques et visualisations finales
 - `README.md` : Documentation du projet
@@ -163,4 +166,4 @@ Des questions sur ce projet ? Des suggestions d'amélioration ?
 * Ou me contacter directement via [LinkedIn/autre]
 
 ---
-*Ce projet est en cours de développement. Dernière mise à jour : 28/01/26*
+*Ce projet est en cours de développement. Dernière mise à jour : 29/01/26*
