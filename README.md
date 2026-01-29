@@ -163,4 +163,4 @@ Des questions sur ce projet ? Des suggestions d'amélioration ?
 * Ou me contacter directement via [LinkedIn/autre]
 
 ---
-*Ce projet est en cours de développement. Dernière mise à jour : 28/01/26*
+*Ce projet est en cours de développement. Dernière mise à jour : 29/01/26*
