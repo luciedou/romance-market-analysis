@@ -1,2 +1,0 @@
--- Les données proviennent de data/processed/books_clean.csv
--- Importées via SQLite / DuckDB

@@ -89,7 +89,6 @@ romance-market-analysis/
   - `raw/` : Données brutes (Kaggle, Goodreads)
   - `processed/` : Données nettoyées et préparées
 - **notebooks/** : Analyses exploratoires et statistiques
-- **sql** : Scripts SQL pour la création de la base et les analyses
 - **src/** : Fonctions Python réutilisables (nettoyage, analyse)
 - **visuals/** : Graphiques et visualisations finales
 - `README.md` : Documentation du projet
@@ -133,7 +132,6 @@ Le projet suit les étapes classiques d’un projet Data / BI :
 - **Visualisation** : Matplotlib, Seaborn, Excel
 - **Analyse** : Jupyter Notebook
 - **Gestion de version** : Git / GitHub
-- **SQL**
 
 ## Langues
 
