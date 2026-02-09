@@ -127,10 +127,9 @@ Le projet suit les étapes classiques d’un projet Data / BI :
 ## Outils utilisés
 
 - **Python 3.x** : Pandas, NumPy
-- **Visualisation** : Matplotlib, Seaborn, Excel
+- **Visualisation** : Plotly, Excel
 - **Analyse** : Jupyter Notebook
 - **Gestion de version** : Git / GitHub
-- **SQL**
 
 ## Langues
 
