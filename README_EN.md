@@ -23,145 +23,142 @@ The questions this project seeks to answer are:
 
 ## Key results
 ### Dataset analyzed
-- **1 566 romances** issues de 11 098 livres Goodreads
-- **Note moyenne : 3,90/5**
-- **6 sous-genres principaux** identifiés et analysés
+- **1 566 romances** from 11 098 Goodreads books
+- **Average rate: 3,90/5**
+- **6 Main subgenres** Identified and analyzed
 
-### Insights principaux
+### Main Insights
 
-#### **Répartition du marché**
-- **Contemporary Romance** domine avec 14,7% (230 livres)
-- **Historical Romance** : 10,4% (163 livres)
-- **Paranormal Romance** : 8,7% (136 livres)
-- **Romantic Suspense** : 5,7% (89 livres)
-- **Fantasy Romance** et **Erotic Romance** : marchés de niche (~1% chacun)
+#### **Market share**
+- **Contemporary Romance** dominates with 14,7% (230 books)
+- **Historical Romance**: 10,4% (163 books)
+- **Paranormal Romance**: 8,7% (136 books)
+- **Romantic Suspense**: 5,7% (89 books)
+- **Fantasy Romance** and **Erotic Romance**: niche markets (~1% each)
 
-#### **Qualité perçue (notes moyennes)**
-- 🥇 **Fantasy Romance** : 3,98/5 (meilleur sous-genre, marché de niche)
-- 🥈 **Paranormal Romance** : 3,97/5
-- 🥉 **Historical Romance** : 3,93/5
-- **Contemporary Romance** : 3,79/5 (marché saturé, notes plus basses)
+#### **Perceived quality (Average rates)**
+- 🥇 **Fantasy Romance**: 3,98/5 (best subgenre, niche market)
+- 🥈 **Paranormal Romance**: 3,97/5
+- 🥉 **Historical Romance**: 3,93/5
+- **Contemporary Romance**: 3,79/5 (saturated market, lower ratings)
 
-#### **Engagement des lecteurs (nombre d'avis moyens)**
-- Paranormal Romance : 56 390 avis (communauté exceptionnellement engagée !)
-- Contemporary Romance : 31 531 avis
-- Historical Romance : 22 674 avis
-- Romantic Suspense : 4 105 avis
+#### **Reader engagement (average number of reviews)**
+- Paranormal Romance: 56 390 avis (exceptionally engaged community!)
+- Contemporary Romance: 31 531 reviews
+- Historical Romance: 22 674 reviews
+- Romantic Suspense: 4 105 reviews
 
-**Observation clé** : Paranormal Romance génère **17x plus d'engagement** que Romantic Suspense, malgré un marché de taille similaire. Cette communauté de lecteurs est particulièrement active et fidèle.
+**Key observations**: Paranormal Romance generates **17x more engagement** than Romantic Suspense, despite a similarly sized market. This reader community is particularly active and loyal.
 
-#### **Longueur des livres**
-- Fantasy Romance : 500 pages en moyenne (lectures immersives)
-- Historical Romance : 426 pages
-- Contemporary Romance : 356 pages
-- Erotic Romance : 304 pages (lectures rapides)
+#### **Length of books**
+- Fantasy Romance: 500 pages on average (immersive readings)
+- Historical Romance: 426 pages
+- Contemporary Romance: 356 pages
+- Erotic Romance: 304 pages (quick readings)
 
-#### **Réponse aux questions initiales**
+#### **Answers to the initial questions**
 
-**Q1 : Existe-t-il une corrélation entre nombre d'avis et note moyenne ?**
-→ Corrélation faible. Les livres très populaires ne sont pas systématiquement les mieux notés.
+**Q1: Is there a correlation between the number of reviews and the average rating?**
+→ Weak correlation. Very popular books are not always the highest rated.
 
-**Q2 : Les romances historiques sont-elles mieux notées que les contemporaines ?**
-→ **Oui.** Historical (3,93) surpasse Contemporary (3,79) de 0,14 points.
+**Q2: Are historical romances rated higher than contemporary ones?**
+→ **Oui.** Historical (3,93) outdo Contemporary (3,79) of 0,14 points.
 
-**Q3 : Quels sous-genres génèrent le plus d'engagement ?**
-→ **Paranormal Romance** domine largement avec 56k avis en moyenne.
+**Q3: Which subgenres generate the most engagement?**
+→ **Paranormal Romance** dominates by a wide margin with an average of 56k reviews.
 
-**Q4 : Certains sous-genres ont-ils une meilleure réception critique ?**
-→ **Fantasy Romance** (3,98) et **Paranormal Romance** (3,97) sont les mieux notés.
+**Q4: Do certain subgenres receive better critical acclaim?**
+→ **Fantasy Romance** (3,98) and **Paranormal Romance** (3,97) are the highest rated.
 
 ---
 
-### Recommandations business
+### Business recommendations
 
-**Pour un auteur/éditeur :**
-- **Opportunité** : Paranormal Romance combine qualité (3,97) et viralité (56k avis)
-- **Valeur sûre** : Historical Romance (2e marché, bonne qualité)
-- **Marché difficile** : Contemporary Romance (saturé, notes plus basses)
-- **Niche premium** : Fantasy Romance (meilleure note, petit marché)
+**For and author/editor:**
+- **Opportunities**: Paranormal Romance combines quality (3.97) and virality (56k reviews)
+- **Safe value**: Historical Romance (2nd market, good quality)
+- **Difficult market**: Contemporary Romance (saturated, lower notes)
+- **Premium niche**: Fantasy Romance (best rating, small market)
 ---
   
-## Structure du projet
+## Project structure
 romance-market-analysis/
-- **data/** : Données du projet
-  - `raw/` : Données brutes (Kaggle, Goodreads)
-  - `processed/` : Données nettoyées et préparées
-- **notebooks/** : Analyses exploratoires et statistiques
-- **sql** : 
-- **src/** : Fonctions Python réutilisables (nettoyage, analyse)
-- **visuals/** : Graphiques et visualisations finales
-- `README.md` : Documentation du projet
-- `requirements.txt` : Dépendances Python
+- **data/**: Project data
+  - `raw/`: Raw data (Kaggle, Goodreads)
+  - `processed/`: Data cleaned and prepared
+- **notebooks/**: Exploratory and statistical analyses
+- **src/**: Reusable Python functions (cleaning, analysis)
+- **visuals/**: Final graphs and visualizations
+- `README.md`: Project documentation in french
+- `requirements.txt`: Python dependencies
+  
+## Data sources
+* Kaggle: Datasets on books and their characteristics
+* Goodreads: public data used for non-commercial analysis purposes
 
-## Sources de données
+This project complies with the platform's terms of service:
+The data is used solely for educational and analytical purposes.
 
-* Kaggle : jeux de données sur les livres et leurs caractéristiques
-* Goodreads : données publiques utilisées à des fins d’analyse non commerciale
-
-Ce projet respecte les conditions d’utilisation des plateformes :
-les données sont utilisées uniquement à des fins pédagogiques et analytiques.
-
-Les données ne sont pas incluses dans ce repo. Pour reproduire l'analyse :
-1. Téléchargez le dataset depuis Kaggle : https://www.kaggle.com/datasets/middlelight/goodreadsbookswithgenres
-2. Placez le fichier CSV dans `data/raw/`
-3. Lancez les notebooks
+The data is not included in this repository. To reproduce the analysis:
+1. Download the dataset from Kaggle: https://www.kaggle.com/datasets/middlelight/goodreadsbookswithgenres
+2. Place the CSV file in `data/raw/`
+3. Launch the notebooks
 
 ## Méthodologie
 
-Le projet suit les étapes classiques d’un projet Data / BI :
+The project follows the classic steps of a Data/BI project:
 
-1. **Collecte des données**
-2. **Nettoyage et préparation**
-   - Gestion des valeurs manquantes
-   - Normalisation des genres et sous-genres
-   - Filtrage sur le périmètre “romance”
-3. **Analyse exploratoire**
-   - Statistiques descriptives
-   - Corrélations
-   - Comparaisons entre sous-genres
-4. **Visualisation**
-   - Graphiques clairs orientés décision
-5. **Synthèse business**
-   - Interprétation des résultats
-   - Limites de l’analyse
+1. **Data collection**
+2. **Cleaning and preparation**
+   - Handling missing values
+   - Standardization of genres and subgenres
+   - Perimeter filtering“romance”
+3. **Exploratory analysis**
+   - Descriptive statistics
+   - Correlations
+   - Comparisons between subgenres
+4. **Visualization**
+   - Clear, decision-oriented charts
+5. **business summary**
+   - Interpretation of the results
+   - Limitations of the analysis
 
-## Outils utilisés
+## Tools used
 
 - **Python 3.x** : Pandas, NumPy
-- **Visualisation** : Matplotlib, Seaborn, Excel
-- **Analyse** : Jupyter Notebook
-- **Gestion de version** : Git / GitHub
-- **SQL**
+- **Visualization** : Plotly, Excel
+- **Analysis** : Jupyter Notebook
+- **Version management** : Git / GitHub
 
-## Langues
+## Languages
 
-- Données disponibles en anglais
-- Documentation et synthèse en français
+- Data available in English
+- Documentation and summary in English
 - Une version anglaise du README est fournie 
 
-## Limites du projet
+## Lproject boundaries
 
-- Les données Goodreads ne représentent pas l’ensemble du marché
-- Les avis sont soumis à des biais (auto-sélection, popularité des auteurs)
+- Goodreads data does not represent the entire market
+- Opinions are subject to biases (self-selection, author popularity)
 
-## Auteur
+## Author
 
-Projet réalisé par Lucie
-Dans le cadre d’une reconversion vers les métiers de la data et de la Business Intelligence.
+Project completed by Lucie
+As part of a career change towards data and Business Intelligence professions.
 
-## Prochaines étapes possibles
+## Possible next steps
 
-- Analyse temporelle (évolution des notes dans le temps)
-- Segmentation par popularité des auteurs
-- Intégration de données de ventes (si disponibles)
-- Dashboard interactif (Power BI / Tableau)
-- Analyse sentiment des reviews textuelles (NLP basique)
+- Time-based analysis (change in ratings over time)
+- Segmentation by author popularity
+- Integration of sales data (if available)
+- Interactive dashboard (Power BI / Tableau)
+- Sentiment analysis of text reviews (basic NLP)
 
 ## Contact
 
-Des questions sur ce projet ? Des suggestions d'amélioration ?
-* GitHub Issues : [ouvrir un ticket](lien)
-* Ou me contacter directement via [LinkedIn/autre]
+Questions about this project? Suggestions for improvement?
+* GitHub Issues: [Open a ticket](lien)
+* Oor contact me directly via [LinkedIn]
 
 ---
-*Ce projet est en cours de développement. Dernière mise à jour : 29/01/26*
+*This project is currently under development. Last updated: 13/02/26*
