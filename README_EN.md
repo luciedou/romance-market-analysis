@@ -8,7 +8,7 @@ Analysis of the romance market based on Goodreads and Kaggle data
 
 ## Project objective
 
-This project aims to analyze the romance novel market to better understand the dynamics of ratings, pricing, and subgenres, using publicly available data.
+This project aims to analyze the romance novel market to better understand the dynamics of ratings, and subgenres, using publicly available data.
 
 The analysis is designed with a Business Intelligence approach: transforming raw data into actionable insights to support decision-making (publishers, authors, marketers, platforms).
 
