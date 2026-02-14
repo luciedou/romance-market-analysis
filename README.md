@@ -159,7 +159,7 @@ Dans le cadre d’une reconversion vers les métiers de la data et de la Busines
 
 Des questions sur ce projet ? Des suggestions d'amélioration ?
 * GitHub Issues : [ouvrir un ticket](lien)
-* Ou me contacter directement via [LinkedIn]
+* Ou me contacter directement via [LinkedIn](https://www.linkedin.com/in/lucie-douezi/)
 
 ---
 *Ce projet est en cours de développement. Dernière mise à jour : 13/02/26*
