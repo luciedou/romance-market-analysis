@@ -158,7 +158,7 @@ As part of a career change towards data and Business Intelligence professions.
 
 Questions about this project? Suggestions for improvement?
 * GitHub Issues: [Open a ticket](lien)
-* Oor contact me directly via [LinkedIn]
+* Oor contact me directly via [LinkedIn](https://www.linkedin.com/in/lucie-douezi/)
 
 ---
 *This project is currently under development. Last updated: 13/02/26*
