@@ -27,6 +27,8 @@ Les questions auxquelles ce projet cherche à répondre :
 - **Note moyenne : 3,90/5**
 - **6 sous-genres principaux** identifiés et analysés
 
+  ![Aperçu du marché](visuals/05_rating_distribution_boxplot.png)
+
 ### Insights principaux
 
 #### **Répartition du marché**
@@ -35,6 +37,8 @@ Les questions auxquelles ce projet cherche à répondre :
 - **Paranormal Romance** : 8,7% (136 livres)
 - **Romantic Suspense** : 5,7% (89 livres)
 - **Fantasy Romance** et **Erotic Romance** : marchés de niche (~1% chacun)
+  
+  ![Distribution des sous-genres](visuals/01_subgenre_distribution.png)
 
 #### **Qualité perçue (notes moyennes)**
 - 🥇 **Fantasy Romance** : 3,98/5 (meilleur sous-genre, marché de niche)
@@ -42,11 +46,15 @@ Les questions auxquelles ce projet cherche à répondre :
 - 🥉 **Historical Romance** : 3,93/5
 - **Contemporary Romance** : 3,79/5 (marché saturé, notes plus basses)
 
+![Notes moyennes par sous-genre](visuals/02_average_rating_by_subgenre.png)
+
 #### **Engagement des lecteurs (nombre d'avis moyens)**
 - Paranormal Romance : 56 390 avis (communauté exceptionnellement engagée !)
 - Contemporary Romance : 31 531 avis
 - Historical Romance : 22 674 avis
 - Romantic Suspense : 4 105 avis
+
+![Engagement par sous-genre](visuals/03_engagement_by_subgenre.png)
 
 **Observation clé** : Paranormal Romance génère **17x plus d'engagement** que Romantic Suspense, malgré un marché de taille similaire. Cette communauté de lecteurs est particulièrement active et fidèle.
 
@@ -60,6 +68,8 @@ Les questions auxquelles ce projet cherche à répondre :
 
 **Q1 : Existe-t-il une corrélation entre nombre d'avis et note moyenne ?**
 → Corrélation faible. Les livres très populaires ne sont pas systématiquement les mieux notés.
+
+![Évaluation de la corrélation des notes](visuals/04_quality_vs_popularity.png)
 
 **Q2 : Les romances historiques sont-elles mieux notées que les contemporaines ?**
 → **Oui.** Historical (3,93) surpasse Contemporary (3,79) de 0,14 points.
